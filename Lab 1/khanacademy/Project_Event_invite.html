@@ -19,6 +19,7 @@
             }
             #info {
                 float:auto;
+                border-bottom:3px solid yellow;
             }
             #movie {
                 color:yellow;
@@ -50,6 +51,12 @@
                 top:800px;
                 z-index:2;
             }
+            #agenda {
+                border-bottom:3px solid yellow;
+            }
+            #end {
+                border-top:3px solid yellow;
+            }
         </style>
     </head>
     <body>
@@ -61,7 +68,7 @@
         <p>[Date] at [Time]</p>
         <h3>Venue:</h3>
         <p>[Address]</p></div>
-        <div><h3>Agenda:</h3>
+        <div id="agenda"><h3>Agenda:</h3>
         <ul>
             <li>Opening Reception:</li>
             <ul>
@@ -86,7 +93,7 @@
         <img id="pic4" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/hopper-elfer.png">
         <p>Casual and comfy – bring your favorite pajamas or loungewear!</p></div>
         
-        <div><h3>How to RSVP:</h3>
+        <div id="end"><h3>How to RSVP:</h3>
         <p>Let us know if you can make it by [RSVP Date] through [RSVP Link].
 <br><br>
 Join us for a laid-back evening filled with laughter, good company, and, of course, great films. We can't wait to see you there!
